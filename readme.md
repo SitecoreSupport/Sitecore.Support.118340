@@ -1,5 +1,5 @@
 # Sitecore.Support.118340
-Errors may occur when controls are rendered in `Experience Editor` and some fields have a `Short description`.<br/>
+Errors may occur when controls are rendered in `Experience Editor` and some fields have a `Short description` with double brackets `" "`.<br/>
 This patch encodes double brackets in the `Short description` field to prevent errors in a browser console.
 
 ## License  
